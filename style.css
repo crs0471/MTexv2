@@ -209,5 +209,116 @@ html {
 
 
 
-
+  .cont{
+    height: 100vh;
+    font-family:fantasy;
+    color: white;
+    text-align: center;
+    background-color: black;
+  }
+  .background{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    opacity: 30%;
+  }
+ 
   
+  @media(max-width:411px){
+    .cont h4{
+      margin-top: 20px;
+      opacity: 70%;
+    }
+    .cont-2 h1{
+      padding-top: 10vh;
+     }
+     .cont-1 h1{
+       padding-top: 35vh;
+     }
+     .cont-3 h1{
+       padding-top: 55vh;
+     }
+     .cont-4 img{
+      background-color: black;
+      position: relative;
+      width: 30vw;
+      height: 50vh;
+      padding-top: 20vh;
+      
+    }
+    .cont-5 img{
+      background-color: black;
+      position: relative;
+      width: 30vw;
+      height: 50vh;
+      padding-top: 20vh;
+      
+    }
+    .cont-6 img{
+      background-color: black;
+      position: relative;
+      width: 40vw;
+      height: 60vh;
+      padding-top: 20vh;
+      
+    }
+    .cont-7 img{
+      background-color: black;
+      position: relative;
+      width: 30vw;
+      height: 50vh;
+      padding-top: 20vh;
+      
+    }
+    .cont-7 h1{
+      font-size: 30px;
+    }
+  }
+  @media(min-width:412px){
+    .cont h4{
+     margin-top: 20px;
+      opacity: 70%;
+    }
+    .cont-2 h1{
+      padding-top: 10vh;
+     }
+     .cont-1 h1{
+      padding-top: 10vh;
+    }
+    .cont-3 h1{
+      padding-top: 60vh;
+    }
+    .cont-4 img{
+      background-color: black;
+      position: relative;
+      width: 30vw;
+      height: 50vh;
+      padding-top: 20vh;
+      
+    }
+    .cont-5 img{
+      background-color: black;
+      position: relative;
+      width: 50vw;
+      height: 70vh;
+      padding-top: 20vh;
+      
+    }
+    .cont-6 img{
+      background-color: black;
+      position: relative;
+      width: 50vw;
+      height: 70vh;
+      padding-top: 20vh;
+      
+    }
+    .cont-7 img{
+      background-color: black;
+      position: relative;
+      width: 30vw;
+      height: 50vh;
+      padding-top: 20vh;
+      
+    }
+  }
